@@ -29,6 +29,16 @@ int main(int argc, char** argv) {
     // same as 
     
       std::cout << "Hello World!!!" <<std::endl<< 2+2;
+      
+      cout << endl;
+      
+      
+      int i;
+      i = 3;
+      
+      cout << i << endl;
+      
+      
     return 0;
 }
 
