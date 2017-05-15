@@ -14,16 +14,18 @@
 #include <cstdlib>
 #include <iostream>
 
-using namespace std;
+using namespace std; //Allows std::cout to become just cout
+
+
 
 /*
  * 
  */
 int main(int argc, char** argv) {
 
-        std::cout << "Hello World!!!" <<std::endl;    
-    std::cout << 2+2;
-    std::cout <<std::endl; 
+        cout << "Hello World!!!" <<endl;    
+    cout << 2+2;
+    cout <<std::endl; 
     // same as 
     
       std::cout << "Hello World!!!" <<std::endl<< 2+2;
